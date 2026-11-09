@@ -1,0 +1,3 @@
+Geometry reference occupancy map rasterized from worlds/maze_fast.sdf.
+Frame map is aligned with Gazebo world; this is NOT a SLAM result.
+Original recorded SLAM map remains untouched in maps/phase2/.

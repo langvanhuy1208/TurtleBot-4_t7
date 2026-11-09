@@ -1,0 +1,5 @@
+{
+  "source": "fresh Gazebo maze, real Nav2/AMCL/odometry; text command input",
+  "passed": false,
+  "results": []
+}

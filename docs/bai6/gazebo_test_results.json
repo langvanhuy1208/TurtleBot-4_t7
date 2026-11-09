@@ -1,0 +1,49 @@
+[
+  {
+    "gesture": "Pointing_Up",
+    "path_m": 1.882,
+    "net_yaw_rad": -0.0,
+    "end_offset_m": 0.519,
+    "linear_segments": [
+      0.15,
+      -0.15,
+      0.15,
+      -0.15,
+      0.15,
+      -0.15,
+      0.15,
+      -0.15
+    ],
+    "status": {
+      "state": "IDLE",
+      "selected": null,
+      "reason": "Completed"
+    }
+  },
+  {
+    "gesture": "Victory",
+    "path_m": 3.754,
+    "net_yaw_rad": 6.273,
+    "end_offset_m": 0.015,
+    "linear_segments": [
+      0.15
+    ],
+    "status": {
+      "state": "IDLE",
+      "selected": null,
+      "reason": "Completed"
+    }
+  },
+  {
+    "gesture": "Wave",
+    "path_m": 0.0,
+    "net_yaw_rad": 0.065,
+    "end_offset_m": 0.0,
+    "linear_segments": [],
+    "status": {
+      "state": "IDLE",
+      "selected": null,
+      "reason": "Completed"
+    }
+  }
+]

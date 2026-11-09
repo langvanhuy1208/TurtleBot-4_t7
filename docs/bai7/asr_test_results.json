@@ -1,0 +1,69 @@
+{
+  "model": "small",
+  "source": "Synthetic Vietnamese speech generated with Google TTS (gTTS); NOT human microphone recordings",
+  "results": [
+    {
+      "wav": "01.wav",
+      "text": "Đi đến khu vực A.",
+      "expected_route": [
+        "A"
+      ],
+      "transcript": "Đi đến khu vực A.",
+      "route": [
+        "A"
+      ],
+      "passed": true,
+      "seconds": 2.78
+    },
+    {
+      "wav": "02.wav",
+      "text": "Di chuyển từ khu vực A đến khu vực B.",
+      "expected_route": [
+        "A",
+        "B"
+      ],
+      "transcript": "Di chuyển từ khu vực A đến khu vực B.",
+      "route": [
+        "A",
+        "B"
+      ],
+      "passed": true,
+      "seconds": 2.78
+    },
+    {
+      "wav": "03.wav",
+      "text": "Đi đến phòng thí nghiệm.",
+      "expected_route": [
+        "B"
+      ],
+      "transcript": "Đi đến phòng thí nghiệm.",
+      "route": [
+        "B"
+      ],
+      "passed": true,
+      "seconds": 2.7
+    },
+    {
+      "wav": "04.wav",
+      "text": "Đi đến hành lang.",
+      "expected_route": [
+        "C"
+      ],
+      "transcript": "Đi đến Hành Lan.",
+      "route": [
+        "C"
+      ],
+      "passed": true,
+      "seconds": 2.51
+    },
+    {
+      "wav": "05.wav",
+      "text": "Đi đến khu vực Z.",
+      "expected_route": null,
+      "transcript": "Đi đến khu vực Z.",
+      "route": null,
+      "passed": true,
+      "seconds": 2.74
+    }
+  ]
+}

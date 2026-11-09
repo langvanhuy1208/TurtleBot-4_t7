@@ -1,0 +1,31 @@
+{
+  "source": "fresh Gazebo maze, real Nav2/AMCL/odometry; text command input",
+  "passed": true,
+  "results": [
+    {
+      "test": "real itinerary A→C→B",
+      "passed": true,
+      "final_error_m": 0.216,
+      "amcl_path_m": 18.688,
+      "minimum_amcl_wall_clearance_m": 0.4
+    },
+    {
+      "test": "unknown intermediate rejects whole itinerary",
+      "passed": true
+    },
+    {
+      "test": "new route rejected while robot is moving",
+      "passed": true
+    },
+    {
+      "test": "cancel moving robot and discard remaining B",
+      "passed": true,
+      "stopped_linear_m_s": 0.0,
+      "stopped_angular_rad_s": 0.0
+    },
+    {
+      "test": "new route succeeds after cancellation",
+      "passed": true
+    }
+  ]
+}

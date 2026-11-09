@@ -1,0 +1,4 @@
+# ROS Python dependencies come from Ubuntu/rosdep, not pip.
+numpy>=1.23,<2
+faster-whisper>=1.1,<2
+sounddevice>=0.5,<1

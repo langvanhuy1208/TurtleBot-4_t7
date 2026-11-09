@@ -1,0 +1,26 @@
+{
+  "source": "Synthetic WAV replay aligned before logged command acceptance; not microphone audio",
+  "video": "demo_voice_navigation.mp4",
+  "cues": [
+    {
+      "wav": "01.wav",
+      "at_video_seconds": 9.033
+    },
+    {
+      "wav": "02.wav",
+      "at_video_seconds": 51.574
+    },
+    {
+      "wav": "03.wav",
+      "at_video_seconds": 84.179
+    },
+    {
+      "wav": "04.wav",
+      "at_video_seconds": 91.96
+    },
+    {
+      "wav": "05.wav",
+      "at_video_seconds": 130.18
+    }
+  ]
+}

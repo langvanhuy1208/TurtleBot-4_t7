@@ -1,0 +1,73 @@
+{
+  "type": "real ROS 2 transport; fake Nav2 server",
+  "tests": [
+    {
+      "command": "Đi đến khu vực A",
+      "route": [
+        "A"
+      ],
+      "result": "PASS"
+    },
+    {
+      "command": "Đi đến khu A",
+      "route": [
+        "A"
+      ],
+      "result": "PASS"
+    },
+    {
+      "command": "Đi đến khu B",
+      "route": [
+        "B"
+      ],
+      "result": "PASS"
+    },
+    {
+      "command": "Đi đến khu C",
+      "route": [
+        "C"
+      ],
+      "result": "PASS"
+    },
+    {
+      "command": "Di chuyển từ khu vực A đến khu vực B",
+      "route": [
+        "A",
+        "B"
+      ],
+      "result": "PASS"
+    },
+    {
+      "command": "Đi đến phòng thí nghiệm",
+      "route": [
+        "B"
+      ],
+      "result": "PASS"
+    },
+    {
+      "command": "Đi từ phòng A qua hành lang rồi đến phòng B",
+      "route": [
+        "A",
+        "C",
+        "B"
+      ],
+      "result": "PASS"
+    },
+    {
+      "test": "unknown source rejects entire route",
+      "result": "PASS"
+    },
+    {
+      "test": "abort A never sends B",
+      "result": "PASS"
+    },
+    {
+      "test": "busy rejection and cancel before goal acceptance",
+      "result": "PASS"
+    },
+    {
+      "test": "timeout cancels action and clears queue",
+      "result": "PASS"
+    }
+  ]
+}

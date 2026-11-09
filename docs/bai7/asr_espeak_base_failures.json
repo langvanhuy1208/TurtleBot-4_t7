@@ -1,0 +1,60 @@
+{
+  "model": "base",
+  "source": "synthetic eSpeak NG Vietnamese WAVs, not human speech",
+  "results": [
+    {
+      "wav": "01.wav",
+      "text": "Đi đến khu vực A.",
+      "expected_route": [
+        "A"
+      ],
+      "transcript": "",
+      "route": null,
+      "passed": false,
+      "seconds": 2.39
+    },
+    {
+      "wav": "02.wav",
+      "text": "Di chuyển từ khu vực A đến khu vực B.",
+      "expected_route": [
+        "A",
+        "B"
+      ],
+      "transcript": "",
+      "route": null,
+      "passed": false,
+      "seconds": 2.54
+    },
+    {
+      "wav": "03.wav",
+      "text": "Đi đến phòng thí nghiệm.",
+      "expected_route": [
+        "B"
+      ],
+      "transcript": "Tìm phẩm kiếm",
+      "route": null,
+      "passed": false,
+      "seconds": 0.87
+    },
+    {
+      "wav": "04.wav",
+      "text": "Đi đến hành lang.",
+      "expected_route": [
+        "C"
+      ],
+      "transcript": "Tìm hẳn lạng",
+      "route": null,
+      "passed": false,
+      "seconds": 0.83
+    },
+    {
+      "wav": "05.wav",
+      "text": "Đi đến khu vực Z.",
+      "expected_route": null,
+      "transcript": "",
+      "route": null,
+      "passed": true,
+      "seconds": 2.26
+    }
+  ]
+}

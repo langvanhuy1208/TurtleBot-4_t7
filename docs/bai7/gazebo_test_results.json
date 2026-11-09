@@ -1,0 +1,198 @@
+{
+  "source": "Gazebo TurtleBot4, real Nav2 and AMCL; geometry reference map, not SLAM",
+  "input": "Whisper decoding synthetic Vietnamese WAVs",
+  "video": {
+    "file": "demo_navigation.mp4",
+    "frames": 667,
+    "fps": 5
+  },
+  "results": [
+    {
+      "wav": "01.wav",
+      "text": "Đi đến khu vực A.",
+      "expected_route": [
+        "A"
+      ],
+      "transcript": "Đi đến khu vực A.",
+      "arrived": [
+        "A"
+      ],
+      "state": "completed",
+      "final_error_m": 0.238,
+      "seconds": 41.14,
+      "passed": true
+    },
+    {
+      "wav": "02.wav",
+      "text": "Di chuyển từ khu vực A đến khu vực B.",
+      "expected_route": [
+        "A",
+        "B"
+      ],
+      "transcript": "Di chuyển từ khu vực A đến khu vực B.",
+      "arrived": [
+        "A",
+        "B"
+      ],
+      "state": "completed",
+      "final_error_m": 0.225,
+      "seconds": 28.89,
+      "passed": true
+    },
+    {
+      "wav": "03.wav",
+      "text": "Đi đến phòng thí nghiệm.",
+      "expected_route": [
+        "B"
+      ],
+      "transcript": "Đi đến phòng thí nghiệm.",
+      "arrived": [
+        "B"
+      ],
+      "state": "completed",
+      "final_error_m": 0.225,
+      "seconds": 5.44,
+      "passed": true
+    },
+    {
+      "wav": "04.wav",
+      "text": "Đi đến hành lang.",
+      "expected_route": [
+        "C"
+      ],
+      "transcript": "Đi đến Hành Lan.",
+      "arrived": [
+        "C"
+      ],
+      "state": "completed",
+      "final_error_m": 0.211,
+      "seconds": 35.92,
+      "passed": true
+    },
+    {
+      "wav": "05.wav",
+      "text": "Đi đến khu vực Z.",
+      "expected_route": null,
+      "transcript": "Đi đến khu vực Z.",
+      "arrived": [],
+      "state": "rejected",
+      "final_error_m": null,
+      "seconds": 5.64,
+      "passed": true
+    }
+  ],
+  "events": [
+    {
+      "seconds": 12.21,
+      "state": "accepted",
+      "text": "Đi đến khu vực A.",
+      "route": [
+        "A"
+      ]
+    },
+    {
+      "seconds": 12.21,
+      "state": "navigating",
+      "region": "A",
+      "remaining": []
+    },
+    {
+      "seconds": 48.82,
+      "state": "arrived",
+      "region": "A"
+    },
+    {
+      "seconds": 48.82,
+      "state": "completed"
+    },
+    {
+      "seconds": 55.64,
+      "state": "accepted",
+      "text": "Di chuyển từ khu vực A đến khu vực B.",
+      "route": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "seconds": 55.64,
+      "state": "navigating",
+      "region": "A",
+      "remaining": [
+        "B"
+      ]
+    },
+    {
+      "seconds": 55.7,
+      "state": "arrived",
+      "region": "A"
+    },
+    {
+      "seconds": 55.7,
+      "state": "navigating",
+      "region": "B",
+      "remaining": []
+    },
+    {
+      "seconds": 79.62,
+      "state": "arrived",
+      "region": "B"
+    },
+    {
+      "seconds": 79.62,
+      "state": "completed"
+    },
+    {
+      "seconds": 86.61,
+      "state": "accepted",
+      "text": "Đi đến phòng thí nghiệm.",
+      "route": [
+        "B"
+      ]
+    },
+    {
+      "seconds": 86.61,
+      "state": "navigating",
+      "region": "B",
+      "remaining": []
+    },
+    {
+      "seconds": 86.82,
+      "state": "arrived",
+      "region": "B"
+    },
+    {
+      "seconds": 86.83,
+      "state": "completed"
+    },
+    {
+      "seconds": 93.82,
+      "state": "accepted",
+      "text": "Đi đến Hành Lan.",
+      "route": [
+        "C"
+      ]
+    },
+    {
+      "seconds": 93.82,
+      "state": "navigating",
+      "region": "C",
+      "remaining": []
+    },
+    {
+      "seconds": 124.99,
+      "state": "arrived",
+      "region": "C"
+    },
+    {
+      "seconds": 124.99,
+      "state": "completed"
+    },
+    {
+      "seconds": 132.16,
+      "state": "rejected",
+      "text": "Đi đến khu vực Z.",
+      "reason": "Khu vực không tồn tại: khu vuc z"
+    }
+  ]
+}

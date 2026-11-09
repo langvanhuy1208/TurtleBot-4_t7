@@ -1,0 +1,10 @@
+{
+  "backend": "PulseAudio parec",
+  "device": "alsa_input.usb-ASUSTeK_COMPUTER_INC._C-Media_R__Audio-00.analog-stereo",
+  "sample_rate": 16000,
+  "channels": 1,
+  "samples": 16000,
+  "rms": 0.005093,
+  "passed": true,
+  "scope": "capture transport only; no human speech recognition measured; samples not saved"
+}

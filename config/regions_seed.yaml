@@ -1,0 +1,44 @@
+minimum_clearance_m: 0.35
+regions:
+- id: A
+  name: Phòng học
+  seed:
+  - -2.0
+  - 0.0
+  aliases:
+  - khu vực A
+  - phòng A
+  - a
+  - khu vực a a
+  - khu A
+- id: B
+  name: Phòng thí nghiệm
+  seed:
+  - 2.0
+  - 3.0
+  aliases:
+  - khu vực B
+  - phòng B
+  - bê
+  - khu vực bê
+  - khu vực bờ
+  - khu B
+  - khu bê
+  - khu bờ
+  - phòng bê
+- id: C
+  name: Hành lang
+  seed:
+  - 2.0
+  - -3.0
+  aliases:
+  - khu vực C
+  - phòng C
+  - xê
+  - khu vực xê
+  - khu vực cờ
+  - hành lan
+  - khu C
+  - khu xê
+  - khu cờ
+  - phòng xê

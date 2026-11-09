@@ -1,0 +1,22 @@
+{
+  "source": "actual voice_input CLI; isolated ROS observer, no robot",
+  "results": [
+    {
+      "test": "CLI text publish and background status display",
+      "passed": true
+    },
+    {
+      "test": "CLI real Whisper WAV decoding and publish",
+      "passed": true
+    },
+    {
+      "test": "silent WAV never publishes a robot command",
+      "passed": true
+    },
+    {
+      "test": "CLI real microphone capture and local Whisper processing",
+      "passed": true,
+      "scope": "transport/decode only; no labelled human sentence accuracy; temporary samples deleted"
+    }
+  ]
+}

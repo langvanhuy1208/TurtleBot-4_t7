@@ -1,0 +1,72 @@
+version: 1
+frame_id: map
+method: manual-seeds-geodesic-voronoi
+map: map.yaml
+map_sha256: 33bf35d4241a6b92ef8ecb733775942b22b890d30a371f57f52ac8511ce638e8
+labels: labels.png
+minimum_clearance_m: 0.35
+unassigned_free_cells: 3441
+regions:
+- id: A
+  name: Phòng học
+  label: 1
+  aliases:
+  - khu vực A
+  - phòng A
+  - a
+  - khu vực a a
+  - khu A
+  seed:
+  - -2.0
+  - 0.0
+  area_m2: 149.488
+  goal:
+    x: -1.975
+    y: 0.025
+    yaw: 0.0
+  clearance_m: 1.37
+- id: B
+  name: Phòng thí nghiệm
+  label: 2
+  aliases:
+  - khu vực B
+  - phòng B
+  - bê
+  - khu vực bê
+  - khu vực bờ
+  - khu B
+  - khu bê
+  - khu bờ
+  - phòng bê
+  seed:
+  - 2.0
+  - 3.0
+  area_m2: 48.308
+  goal:
+    x: 2.025
+    y: 3.025
+    yaw: 0.0
+  clearance_m: 1.05
+- id: C
+  name: Hành lang
+  label: 3
+  aliases:
+  - khu vực C
+  - phòng C
+  - xê
+  - khu vực xê
+  - khu vực cờ
+  - hành lan
+  - khu C
+  - khu xê
+  - khu cờ
+  - phòng xê
+  seed:
+  - 2.0
+  - -3.0
+  area_m2: 83.21
+  goal:
+    x: 2.025
+    y: -2.975
+    yaw: 0.0
+  clearance_m: 1.05

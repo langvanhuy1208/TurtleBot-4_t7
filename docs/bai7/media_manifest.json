@@ -1,0 +1,21 @@
+{
+  "source": "Existing project maps, measured JSON results and actual live-data demo frames.",
+  "videos": {
+    "01_demo_giong_tong_hop_Whisper_Nav2.mp4": "Live Gazebo/AMCL data with synthetic WAV replay; NOT a human microphone recording.",
+    "02_demo_du_lieu_goc_khong_ghep_tieng.mp4": "Original live-map recording, no added audio."
+  },
+  "pictures": [
+    "01_ban_do_slam_goc.png",
+    "02_ban_do_tham_chieu_gazebo.png",
+    "03_phan_vung_A_B_C.png",
+    "04_phan_vung_ban_do_slam_goc.png",
+    "05_so_do_kien_truc.png",
+    "06_quy_trinh_phan_vung.png",
+    "07_sai_so_dich_do_duoc.png",
+    "08_demo_dieu_huong_A.png",
+    "09_demo_lo_trinh_A_B.png",
+    "10_demo_tu_choi_vung_Z.png",
+    "11_tong_hop_kiem_thu.png",
+    "12_RViz_phien_kiem_thu.png"
+  ]
+}
