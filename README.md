@@ -9,7 +9,6 @@ Hệ thống phân vùng bản đồ 2D thành ba khu chức năng A/B/C, nhận
 - [Ảnh dùng cho báo cáo](pictures/README.md) · [Video demo](videos/README.md) · [Kịch bản quay](docs/bai7/READY_TO_RECORD.md) · [Kết quả xác minh](docs/bai7/VALIDATION.md).
 - Báo cáo do người dùng tự hoàn thiện; PDF/script mẫu cũ được giữ để tham khảo.
 
-![Bản đồ phân vùng A/B/C](pictures/03_phan_vung_A_B_C.png)
 
 ## 1. Chức năng
 
@@ -257,7 +256,7 @@ python3 tests/gazebo_voice_extended.py
 - Chặng A → C → B đo bằng AMCL dài khoảng 18,688 m; sai số đích cuối 0,216 m, clearance nhỏ nhất 0,400 m. Sau hủy, odometry về 0 m/s và 0 rad/s.
 - Micro thật được kiểm tra thu 16 kHz mono qua PulseAudio và xử lý qua CLI/Whisper. Chưa đo độ chính xác trên tập câu giọng người có nhãn trong tiếng ồn.
 
-![Sai số đích cuối](pictures/07_sai_so_dich_do_duoc.png)
+
 
 Các tệp JSON là bằng chứng đo của từng bộ, không gộp Nav2 giả thành bằng chứng robot di chuyển. Test Gazebo mở rộng dùng lệnh văn bản; test pipeline cơ bản dùng WAV tổng hợp. Các lần thử chưa đạt trước khi chỉnh cấu hình được giữ riêng để đối chiếu.
 
