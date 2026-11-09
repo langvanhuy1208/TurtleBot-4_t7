@@ -1,4 +1,6 @@
-# Ảnh dùng làm báo cáo bài 7
+# Ảnh dùng làm báo cáo bài 7 — trắng đen
+
+Toàn bộ PNG là ảnh thang xám, nền trắng, không dùng màu trang trí. Bản đồ phân vùng dùng các mức xám và nhãn A/B/C; biểu đồ dùng nét/gạch thay màu. Ảnh chụp và khung hình video chỉ chuyển sang thang xám, không dựng thêm dữ liệu.
 
 | Tệp | Nội dung / cách dùng |
 |---|---|
@@ -19,4 +21,4 @@
 
 Gợi ý chọn cho báo cáo 1–2 trang: ảnh 03, 05, 07 và 10. Xem thêm [video và phạm vi thử nghiệm](../videos/README.md).
 
-Tái tạo ảnh/video từ tài nguyên hiện có: `python3 docs/bai7/prepare_media.py` (cần Pillow, OpenCV, Matplotlib, NumPy và các tệp nguồn trong dự án).
+Tái tạo ảnh từ tài nguyên hiện có: `python3 docs/bai7/prepare_media.py` (cần Pillow, OpenCV, Matplotlib, NumPy và các tệp nguồn trong dự án).

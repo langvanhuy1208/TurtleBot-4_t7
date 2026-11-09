@@ -2,8 +2,10 @@
   "source": "Existing project maps, measured JSON results and actual live-data demo frames.",
   "videos": {
     "01_demo_giong_tong_hop_Whisper_Nav2.mp4": "Live Gazebo/AMCL data with synthetic WAV replay; NOT a human microphone recording.",
-    "02_demo_du_lieu_goc_khong_ghep_tieng.mp4": "Original live-map recording, no added audio."
+    "02_demo_du_lieu_goc_khong_ghep_tieng.mp4": "Original live-map recording, no added audio.",
+    "03_demo_mo_bang_Firefox.webm": "VP9/Opus fallback of the same synthetic-speech demo."
   },
+  "picture_style": "Plain black and white; native diagrams and measured figures, screenshots converted to grayscale",
   "pictures": [
     "01_ban_do_slam_goc.png",
     "02_ban_do_tham_chieu_gazebo.png",

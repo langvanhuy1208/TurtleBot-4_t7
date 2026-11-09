@@ -9,6 +9,9 @@ Hệ thống phân vùng bản đồ 2D thành ba khu chức năng A/B/C, nhận
 - [Ảnh dùng cho báo cáo](pictures/README.md) · [Video demo](videos/README.md) · [Kịch bản quay](docs/bai7/READY_TO_RECORD.md) · [Kết quả xác minh](docs/bai7/VALIDATION.md).
 - Báo cáo do người dùng tự hoàn thiện; PDF/script mẫu cũ được giữ để tham khảo.
 
+**Video đã sửa:** [Tải MP4 H.264](https://github.com/langvanhuy1208/TurtleBot-4_t7/raw/refs/heads/main/videos/01_demo_giong_tong_hop_Whisper_Nav2.mp4) · [Tải WebM cho Firefox](https://github.com/langvanhuy1208/TurtleBot-4_t7/raw/refs/heads/main/videos/03_demo_mo_bang_Firefox.webm). Trên máy, mở `videos/index.html` bằng Firefox. Bộ ảnh `pictures/` dùng trắng đen, nền trắng.
+
+
 
 ## 1. Chức năng
 
@@ -262,8 +265,8 @@ Các tệp JSON là bằng chứng đo của từng bộ, không gộp Nav2 gi�
 
 ## 10. Ảnh và video để làm báo cáo
 
-- [Thư mục `pictures/`](pictures/README.md): bản đồ gốc, bản đồ tham chiếu, phân vùng A/B/C, kiến trúc, quy trình, biểu đồ và khung hình demo.
-- [Thư mục `videos/`](videos/README.md): video có track giọng tổng hợp và bản gốc chưa ghép tiếng.
+- [Thư mục `pictures/`](pictures/README.md): bộ ảnh trắng đen: bản đồ gốc, bản đồ tham chiếu, phân vùng A/B/C, kiến trúc, quy trình, biểu đồ và khung hình demo.
+- [Thư mục `videos/`](videos/README.md): MP4 H.264 có track giọng tổng hợp, bản chưa ghép tiếng, WebM VP9/Opus dự phòng và trang xem `index.html`.
 - [Video có âm thanh](videos/01_demo_giong_tong_hop_Whisper_Nav2.mp4).
 - [Khung hình từ chối Z](pictures/10_demo_tu_choi_vung_Z.png).
 - [Ảnh RViz thực trong phiên kiểm thử](pictures/12_RViz_phien_kiem_thu.png).

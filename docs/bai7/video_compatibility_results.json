@@ -1,0 +1,48 @@
+{
+  "source": "Original measured Gazebo demo; synthetic speech track, not human microphone audio",
+  "verification": "All video/audio frames decoded; H.264/yuv420p + AAC/faststart MP4, VP9/Opus WebM",
+  "results": [
+    {
+      "file": "01_demo_giong_tong_hop_Whisper_Nav2.mp4",
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "profile": "Constrained Baseline",
+      "duration_seconds": 133.5,
+      "audio_codecs": [
+        "aac"
+      ],
+      "decoded_video_frames": 667,
+      "decoded_audio_frames": 2086,
+      "bytes": 4832817,
+      "sha256": "094401d6eb222a95e8b6b5facf07430b54ac3bcf8bf6aabde282f018d08d1b50",
+      "faststart": true
+    },
+    {
+      "file": "02_demo_du_lieu_goc_khong_ghep_tieng.mp4",
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "profile": "Constrained Baseline",
+      "duration_seconds": 133.4,
+      "audio_codecs": [],
+      "decoded_video_frames": 667,
+      "decoded_audio_frames": 0,
+      "bytes": 4724403,
+      "sha256": "dc4e84ef138e300dbb57ba675b9c3fa7e60fb09a66aa47af987440069eb70a35",
+      "faststart": true
+    },
+    {
+      "file": "03_demo_mo_bang_Firefox.webm",
+      "video_codec": "vp9",
+      "pixel_format": "yuv420p",
+      "profile": "Profile 0",
+      "duration_seconds": 133.512,
+      "audio_codecs": [
+        "opus"
+      ],
+      "decoded_video_frames": 667,
+      "decoded_audio_frames": 6676,
+      "bytes": 3807267,
+      "sha256": "c448940091fe584574dde385b2d114dfdb9c80ddabf71dc48e63d9574ec2e741"
+    }
+  ]
+}

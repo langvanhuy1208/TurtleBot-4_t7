@@ -38,3 +38,9 @@ Micro đã được thu thực và xử lý bằng Whisper cục bộ trong bài
 Bản đồ mặc định demo được raster hóa từ hình học SDF; bản đồ SLAM gốc được giữ và phân vùng riêng. Các số liệu trước khi sửa được giữ riêng để đối chiếu, không dùng để kết luận bản hiện hành đạt.
 
 Báo cáo do người dùng tự làm. Người dùng đã yêu cầu đăng source, README và bộ ảnh/video lên GitHub langvanhuy1208 trong lượt chuẩn bị nộp bài.
+
+## Cập nhật ảnh/video để mở trên máy và trình duyệt
+
+Bộ ảnh `pictures/` đã đổi sang trắng đen, nền trắng, không dùng màu trang trí; bản đồ dùng mức xám và nhãn, biểu đồ dùng nét gạch. Không thay các số liệu đo hay quỹ đạo.
+
+Các video trong `videos/` đã được mã hóa lại từ bản đo gốc: hai MP4 H.264 Constrained Baseline/yuv420p với faststart (bản có tiếng giữ AAC), thêm WebM VP9/Opus. Cả ba tệp đã giải mã đủ 667 khung hình; audio của hai bản có tiếng cũng giải mã được. Chi tiết tại `video_compatibility_results.json`. Mở `videos/index.html` bằng Firefox hoặc tải WebM trực tiếp nếu ứng dụng trên máy thiếu codec MP4.

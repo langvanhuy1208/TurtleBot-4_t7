@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Video demo bài 7</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:960px;margin:24px auto;padding:0 16px;color:#111;background:#fff}video{display:block;width:100%;max-height:78vh;background:#111}a{color:#111}h1{font-size:26px}h2{font-size:20px}p{margin:14px 0}</style>
+</head>
+<body>
+<h1>Video demo bài 7</h1>
+<p>Đây là dữ liệu robot Gazebo/AMCL/Nav2 thực, với câu lệnh WAV tiếng Việt tổng hợp. Không phải bản quay người nói qua micro.</p>
+<video id="demo" controls preload="metadata">
+<source src="03_demo_mo_bang_Firefox.webm" type="video/webm">
+<source src="01_demo_giong_tong_hop_Whisper_Nav2.mp4" type="video/mp4">
+Trình duyệt không hỗ trợ video. Hãy tải một trong các tệp bên dưới.
+</video>
+<p><a href="03_demo_mo_bang_Firefox.webm" download>Tải bản WebM (Firefox)</a> · <a href="01_demo_giong_tong_hop_Whisper_Nav2.mp4" download>Tải bản MP4 H.264</a></p>
+<p id="status">Nhấn nút ▶ để xem. Nếu MP4 không mở được, chọn bản WebM.</p>
+<h2>Bản dữ liệu gốc, không ghép tiếng</h2>
+<video controls preload="metadata"><source src="02_demo_du_lieu_goc_khong_ghep_tieng.mp4" type="video/mp4"></video>
+<script>
+const v=document.getElementById('demo');
+v.addEventListener('loadedmetadata',()=>{document.getElementById('status').textContent='Đã tải video ('+Math.round(v.duration)+' giây). Nhấn ▶ để xem.'});
+v.addEventListener('error',()=>{document.getElementById('status').textContent='Không tải được video. Hãy tải cả thư mục videos rồi mở index.html bằng Firefox.'});
+</script>
+</body></html>
